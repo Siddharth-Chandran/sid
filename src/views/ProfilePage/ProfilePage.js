@@ -50,13 +50,22 @@ export default function ProfilePage(props) {
                   <div className={classes.name}>
                     <h3 className={classes.title}>Siddharth Chandran</h3>
                     <h6>Full Stack Developer</h6>
-                    <Button justIcon link className={classes.margin5}>
+                    <Button
+                      href="https://github.com/Siddharth-Chandran/"
+                      target="_blank"
+                      justIcon link className={classes.margin5}>
                       <i className={"fab fa-github"} />
                     </Button>
-                    <Button justIcon link className={classes.margin5}>
+                    <Button
+                      href="https://www.facebook.com/sid.chan.5794"
+                      target="_blank"
+                      justIcon link className={classes.margin5}>
                       <i className={"fab fa-instagram"} />
                     </Button>
-                    <Button justIcon link className={classes.margin5}>
+                    <Button
+                      href="https://www.instagram.com/siddharth.chandran/"
+                      target="_blank" 
+                      justIcon link className={classes.margin5}>
                       <i className={"fab fa-facebook"} />
                     </Button>
                   </div>
@@ -68,9 +77,9 @@ export default function ProfilePage(props) {
                 A 25 year old Full Stack developer living in Pune, India. Love to
                 create bugs to solve other bugs. {" "}
               </p>
-              <br/>
+              <br />
             </div>
-            
+
           </div>
         </div>
       </div>
