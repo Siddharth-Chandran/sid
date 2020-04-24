@@ -3,7 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography'
+// import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -45,9 +46,9 @@ export default function ComingSoon() {
             <Grid item xs={false} sm={4} md={7} className={classes.image} />
             <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
                 <div className={classes.paper}>
-                    <Typography component="h1" variant="h4">
-                        Good morning!
-                    </Typography>
+                    <Button variant="contained" color="primary">
+                        Good morning
+                    </Button>
                 </div>
             </Grid>
         </Grid>

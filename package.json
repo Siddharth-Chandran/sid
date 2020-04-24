@@ -3,15 +3,25 @@
   "name": "sid",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/index.js",
   "dependencies": {
     "@material-ui/core": "^4.9.11",
     "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "classnames": "2.2.6",
+    "clean": "^4.0.2",
+    "history": "4.9.0",
+    "node-sass": "^4.14.0",
+    "nouislider": "14.0.2",
+    "prop-types": "15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.4.1",
+    "react-slick": "0.25.2",
+    "react-swipeable-views": "0.13.3"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -37,6 +47,14 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "@babel/cli": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.14.3",
+    "prettier": "1.18.2"
   }
 }
